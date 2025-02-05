@@ -1,6 +1,6 @@
 # Credit Card Approval Prediction Using Machine Learning
 
-![credit card](images\credit_card_banner.png)
+![credit card](images/credit_card_banner.png)
 
 ## Overview
 This project is a **machine learning-based credit card approval predictor**. The goal is to automate the decision-making process of credit card applications by training a model to predict whether an application will be **approved** or **denied** based on various applicant features. This helps commercial banks efficiently process applications while minimizing human error and effort.
