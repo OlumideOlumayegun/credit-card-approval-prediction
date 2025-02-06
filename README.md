@@ -3,10 +3,12 @@
 ![credit card](images/credit_card_banner.png)
 
 ## Overview
-This project is a **machine learning-based credit card approval predictor**. The goal is to automate the decision-making process of credit card applications by training a model to predict whether an application will be **approved** or **denied** based on various applicant features. This helps commercial banks efficiently process applications while minimizing human error and effort.
+This project is a **machine learning-based credit card approval predictor**. The goal is to automate the decision-making process of credit card applications by training a model to predict whether an application will be **approved** or **denied** based on various applicant features. This helps commercial banks efficiently process applications while minimising human error and effort.
+
+For an in-depth exploration of the credit card approval prediction model, please consult the accompanying [Jupyter Notebook](notebook.ipynb). The notebook provides a comprehensive, reproducible workflow that demonstrates how I developed and validated the credit card approval prediction system using machine learning techniques.
 
 ## Dataset
-The dataset used is the **Credit Card Approval dataset** from the **UCI Machine Learning Repository**. It contains a mix of **numerical and categorical features**, some of which are anonymized to protect applicant privacy.
+The dataset used is the **Credit Card Approval dataset** from the **UCI Machine Learning Repository**. It contains a mix of **numerical and categorical features**, some of which are anonymised to protect applicant privacy.
 
 ## Project Structure
 The project follows a structured approach:
@@ -17,15 +19,14 @@ The project follows a structured approach:
    - Encoding categorical variables into numerical format.
    - Feature scaling for consistency.
    - Feature selection by removing non-informative columns.
-3. **Exploratory Data Analysis (EDA)**: Identifying patterns and relationships within the dataset.
-4. **Model Selection and Training**:
-   - Using **Logistic Regression** as the base model.
+3. **Model Selection and Training**:
    - Splitting the dataset into training and testing sets.
-5. **Model Evaluation**:
+   - Using **Logistic Regression** as the base model.
+4. **Model Evaluation**:
    - Assessing performance using **classification accuracy** and the **confusion matrix**.
 6. **Hyperparameter Tuning**:
-   - Using **GridSearchCV** to optimize model parameters for better performance.
-7. **Final Model and Conclusions**: Storing the best model parameters and summarizing findings.
+   - Using **GridSearchCV** to optimise model parameters for better performance.
+7. **Final Model and Conclusions**: Storing the best model parameters and summarising findings.
 
 ## Tools & Technologies
 - **Python**
@@ -35,13 +36,13 @@ The project follows a structured approach:
 - **GridSearchCV** (for hyperparameter tuning)
 
 ## Results
-The final **Logistic Regression model** achieved an accuracy of **100%** on the test set, demonstrating its effectiveness in predicting credit card approvals. The model was fine-tuned using **GridSearchCV**, ensuring optimal hyperparameters.
+The final **Logistic Regression model** achieved an accuracy of **83%** on the test set, demonstrating its effectiveness in predicting credit card approvals. The model was fine-tuned using **GridSearchCV**, ensuring optimal hyperparameters.
 
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/credit-card-approval.git
-   cd credit-card-approval
+   git clone https://github.com/OlumideOlumayegun/credit-card-approval-prediction.git
+   cd credit-card-approval-prediction
    ```
 2. Install required dependencies:
    ```bash
@@ -51,7 +52,7 @@ The final **Logistic Regression model** achieved an accuracy of **100%** on the 
    ```bash
    jupyter notebook
    ```
-4. Open and execute **credit_card_approval.ipynb** to reproduce the analysis and model training.
+4. Open and execute **notebook.ipynb** to reproduce the analysis and model training.
 
 ## Future Improvements
 - Experimenting with more complex models like **Random Forests** or **XGBoost**.
@@ -62,8 +63,8 @@ The final **Logistic Regression model** achieved an accuracy of **100%** on the 
 This project is licensed under the **MIT License**.
 
 ## Author
-**Your Name**  
-[LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/yourusername)
+**Olumide Olumayegun**  
+[LinkedIn](https://www.linkedin.com/in/olumide-olumayegun-phd-fhea-miet-r-eng-coren-5a844127/?originalSubdomain=uk) | [GitHub](https://github.com/OlumideOlumayegun)
 
 ---
 Feel free to contribute and enhance this project!
